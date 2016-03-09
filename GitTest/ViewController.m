@@ -23,6 +23,8 @@
     UIView *subView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     subView.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.2];
     [self.view addSubview:subView];
+    
+    // コメント
 }
 
 - (void)didReceiveMemoryWarning {
