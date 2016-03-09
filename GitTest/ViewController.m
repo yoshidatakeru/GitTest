@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.2];
+    
+    UIView *subView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    subView.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.2];
+    [self.view addSubview:subView];
 }
 
 - (void)didReceiveMemoryWarning {
